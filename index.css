@@ -26,12 +26,12 @@ span {
   color: #d23166;
 }
 .container  {
-  margin: 0 40px;
-background-color: #d23166;
+
+background-color: #d2316721;
 }
 .container div header {
   display: flex;
-  background-color: #d23166;
+  
   align-items: center;
   justify-content: center;
   gap: 70px;
@@ -69,7 +69,7 @@ background-color: #d23166;
 button {
   width: 125px;
   height: 40px;
-  background-color: #d23166;
+  background-color: #d23167f5;
   border: 1px solid #d23166;
   border-radius: 5px;
 }
@@ -112,4 +112,32 @@ button {
   position: absolute;
   top: 280px;
   left: 250px;
+}
+.quick {
+    margin-top: 800px;
+    background-color: white;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+}
+.quick p {
+    width: 230px;
+}
+.sugar {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+}
+.sugar p  {
+    width: 420px;
+    text-align:start;
+}
+.sugar h2 {
+   font-size: 35px;
+   width: 200px;
 }
