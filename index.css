@@ -1,14 +1,13 @@
 * {
- 
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 ul {
   flex-wrap: nowrap;
-  padding: 0 100px;
+  padding: 0 80px;
   display: flex;
-  gap: 100px;
+  gap: 80px;
   list-style: none;
 }
 a {
@@ -18,51 +17,44 @@ a {
 body p {
   font-family: "Hind Madurai";
   font-size: 17px;
-  padding: 25px 0;
+  padding: 15px 0;
   font-weight: 100;
   opacity: 0.9;
 }
 span {
   color: #d23166;
 }
-.container  {
-
-background-color: #d2316721;
+.container {
+  background-color: #d2316721;
 }
 .container div header {
   display: flex;
-  
+
   align-items: center;
   justify-content: center;
-  gap: 70px;
+  gap: 0px;
 }
 .container div header img {
   margin-left: -40px;
 }
 .muzqaymoq {
-    display: flex;
-  
-    align-items: center;
-    justify-content: center;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
   position: relative;
   top: 0;
   left: -100px;
-  
- 
 }
- 
+
 .crem {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .muzqaymoq h1 {
-  font-family: "Fredoka One" sans-serif;
-
   font-weight: bold;
-  font-size: 40px;
-
+  font-size: px;
 
   color: #0f0101;
 }
@@ -74,8 +66,9 @@ button {
   border-radius: 5px;
 }
 .ice h1 {
-  width: 720px;
-  font-size: 70px;
+  font-family: "Fredoka One";
+  width: 520px;
+  font-size: 50px;
 }
 .ice p {
   width: 440px;
@@ -83,19 +76,16 @@ button {
 .ice {
   position: absolute;
   top: 250px;
-  left: -530px;
- 
+  left: -410px;
 }
 
 .ice-cream img {
   position: absolute;
 }
 .ice-cream {
-   
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .img1 {
   position: absolute;
@@ -104,9 +94,9 @@ button {
   right: -880px;
 }
 .img2 {
-    position: absolute;
-    top: 10px;
-    left: 140px;
+  position: absolute;
+  top: 10px;
+  left: 140px;
 }
 .img3 {
   position: absolute;
@@ -114,30 +104,125 @@ button {
   left: 250px;
 }
 .quick {
-    margin-top: 800px;
-    background-color: white;
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 300px;
+  margin-top: 800px;
+  background-color: white;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
 }
 .quick p {
-    width: 230px;
+  width: 230px;
 }
 .sugar {
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: start;
+  margin-left: 125px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
 }
-.sugar p  {
-    width: 420px;
-    text-align:start;
+.sugar p {
+  width: 420px;
+  text-align: start;
 }
 .sugar h2 {
-   font-size: 35px;
-   width: 200px;
+  font-size: 35px;
+  width: 200px;
+}
+.products {
+  background-color: white;
+}
+.our h2 {
+  text-align: center;
+  padding: 70px 0;
+}
+.our ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.brown {
+  margin-top: 50px;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.brown p {
+  width: 450px;
+}
+.brown img {
+  width: 450px;
+}
+.chocolate {
+  text-align: end;
+}
+.foto {
+  display: flex;
+  align-items: center;
+}
+.foto p {
+  margin-left: 15px;
+  padding: 7px;
+}
+.foto h4 {
+  margin-left: 20px;
+}
+.foto img {
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  border: 1px solid black;
+  border-radius: 75px;
+}
+
+.amirican img {
+    position: relative;
+  width: 10px;
+  height: 10px;
+}
+.box1 {
+    position: absolute;
+    top: 20px;
+}
+.box2 {
+    position: absolute;
+    top: -35px;
+    left: 140px;
+}
+.amirican p {
+  width: 380px;
+  margin-left: 15px;
+}
+.photos {
+  display: flex;
+  align-items: center;
+
+  gap: 25px;
+}
+.photo2 {
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  border: 1px solid black;
+  border-radius: 75px;
+}
+.photo1 {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 75px;
+  }
+
+.photo3 {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
 }
