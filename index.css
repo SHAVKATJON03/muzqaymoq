@@ -6,12 +6,12 @@
 ul {
   flex-wrap: nowrap;
   padding: 0 80px;
- 
+
   gap: 80px;
   list-style: none;
 }
 nav ul {
-     display: flex;
+  display: flex;
 }
 a {
   text-decoration: none;
@@ -184,18 +184,18 @@ button {
 }
 
 .amirican img {
-    position: relative;
+  position: relative;
   width: 10px;
   height: 10px;
 }
 .box1 {
-    position: absolute;
-    top: 20px;
+  position: absolute;
+  top: 20px;
 }
 .box2 {
-    position: absolute;
-    top: -35px;
-    left: 140px;
+  position: absolute;
+  top: -35px;
+  left: 140px;
 }
 .amirican p {
   width: 380px;
@@ -215,105 +215,137 @@ button {
   border-radius: 75px;
 }
 .photo1 {
-    width: 50px;
-    height: 50px;
-    background-size: cover;
-    border: 1px solid black;
-    border-radius: 75px;
-  }
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  border: 1px solid black;
+  border-radius: 75px;
+}
 
 .photo3 {
-    display: flex;
-    gap: 70px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 25px;
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
 }
-.icons li  {
-    display: flex;
-    margin-left: -80px;
- 
+.icons li {
+  display: flex;
 }
-.icons  ul li img {
-   
-    width: 30px;
-    height: 30px;
+.icons ul li img {
+  width: 30px;
+  height: 30px;
 }
 .icons h3 {
-    font-size: 40px;
-    
+  font-size: 40px;
 }
 .icons p {
-    width: 500px;
+  width: 500px;
 }
 .card {
-    display: flex;
-    gap: 120px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  gap: 120px;
+  align-items: center;
+  justify-content: center;
 }
 form input {
-    width: 350px;
-    height: 70px;
+  width: 350px;
+  height: 70px;
 }
 form button {
-    width: 90px;
-    height:70px ;
-    margin-top: 50px;
+  width: 90px;
+  height: 70px;
+  margin-top: 50px;
 }
 .form1 {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 .form2 {
-
-    margin-top: 15px;
-    display: flex;
-    gap: -15px;
-    box-sizing: border-box;
-    margin-left: 20px;
-    
+  margin-top: 15px;
+  display: flex;
+  gap: -15px;
+  box-sizing: border-box;
+  margin-left: 20px;
 }
 .form2 input {
-    width: 650px;
-    margin-top: 50px;
+  width: 650px;
+  margin-top: 50px;
 }
-form {
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .have {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: 3px;
-   height: 500px;
-    background-color: white;
+  height: 500px;
+  background-color: white;
 }
-.h3 {
-    font-size: 35px;
-    width: 430px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-   
-    text-align: center;
-    margin: 80px 0  80px 470px;
+.have form h3 {
+  margin-left: 190px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  width: 430px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
 }
 input:hover {
-    border: 1px solid #d23166;
-    border-radius: 5px;
+  border: 1px solid #d23166;
+  border-radius: 5px;
 }
-.follow ul  {
+.follow ul {
   display: flex;
   gap: 15px;
-  margin-left: -70px;
-
+  margin-left: -80px;
 }
 .footer p {
   width: 300px;
 }
+footer .ul {
+  margin-top: 10px;
+}
 footer {
-  
+  display: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+footer ul {
+  margin-top: 55px;
+}
+form #gmail {
+  width: 300px;
+  height: 45px;
+}
+form .sub {
+  background-color: red;
+
+  width: 120px;
+  height: 45px;
+}
+.password {
+  margin-left: -70px;
+  background-color: white;
+}
+.new {
+  position: absolute;
+  top: 4760px;
+
+  margin-right: 65px;
+}
+.action {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newslatter {
+  display: flex;
+
+  justify-content: center;
 }
