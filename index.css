@@ -309,6 +309,7 @@ footer .ul {
   margin-top: 10px;
 }
 footer {
+  position: relative;
   display: flex;
   background-color: black;
   color: white;
@@ -334,7 +335,7 @@ form .sub {
 }
 .new {
   position: absolute;
-  top: 4760px;
+  top: 80px;
 
   margin-right: 65px;
 }
@@ -347,4 +348,26 @@ form .sub {
 .newslatter {
   display: flex;
   justify-content: center;
+}
+.action .img {
+  position: relative;
+ 
+}
+.blue {
+  width: 30px;
+  position: absolute;
+  top: 85px;
+  right: 370px;
+}
+.visa {
+  width: 60px;
+  position: absolute;
+  top: 90px;
+  right: 300px;
+}
+.card {
+  width: 60px;
+  position: absolute;
+  top: 80px;
+  right:230px;
 }
